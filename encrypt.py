@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3
 
 start_address_r0 = 0x0400
 start_address_r1 = 0x3244
