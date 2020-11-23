@@ -1,0 +1,9 @@
+J5_recover 				= MEM_OVERLAY + 3 * 0
+J5_showStartupMenu 			= MEM_OVERLAY + 3 * 1
+J5_renameDocument 			= MEM_OVERLAY + 3 * 2
+J5_openDocument 			= MEM_OVERLAY + 3 * 3
+J5_showAboutDialog 			= MEM_OVERLAY + 3 * 4
+J5_loadDeskAcc 				= MEM_OVERLAY + 3 * 5
+J5_exitToDesktop 			= MEM_OVERLAY + 3 * 6
+J5_readPageProperties 			= MEM_OVERLAY + 3 * 7
+J5_makeFullPageWide 			= MEM_OVERLAY + 3 * 8

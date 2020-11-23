@@ -1,0 +1,21 @@
+J6_previousPage				= MEM_OVERLAY + 3 * 0
+J6_nextPage				= MEM_OVERLAY + 3 * 1
+J6_gotoPage				= MEM_OVERLAY + 3 * 2
+J6_streamBlock				= MEM_OVERLAY + 3 * 3
+J6_readNextPage				= MEM_OVERLAY + 3 * 4
+J6_deleteAcrossPages			= MEM_OVERLAY + 3 * 5
+J6_updateDocument			= MEM_OVERLAY + 3 * 6
+J6_syncDocToDisk			= MEM_OVERLAY + 3 * 7
+J6_update				= MEM_OVERLAY + 3 * 8
+J6_readPage				= MEM_OVERLAY + 3 * 9
+J6_openHeader				= MEM_OVERLAY + 3 * 10
+J6_openFooter				= MEM_OVERLAY + 3 * 11
+J6_setFirstPage				= MEM_OVERLAY + 3 * 12
+J6_titlePage				= MEM_OVERLAY + 3 * 13
+J6_updateTitleNlqMenuSelection		= MEM_OVERLAY + 3 * 14
+J6_search				= MEM_OVERLAY + 3 * 15
+J6_findNext				= MEM_OVERLAY + 3 * 16
+J6_change				= MEM_OVERLAY + 3 * 17
+J6_NLQSpacing				= MEM_OVERLAY + 3 * 18
+J6_updatePageSizes			= MEM_OVERLAY + 3 * 19
+

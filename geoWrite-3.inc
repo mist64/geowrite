@@ -1,0 +1,9 @@
+J3_cut 					= MEM_OVERLAY + 3 * 0
+J3_copy 				= MEM_OVERLAY + 3 * 1
+J3_pasteText 				= MEM_OVERLAY + 3 * 2
+J3_addPhotoScrapToDoc 			= MEM_OVERLAY + 3 * 3
+J3_hidePictures 			= MEM_OVERLAY + 3 * 4
+J3_splitTooBigPage 			= MEM_OVERLAY + 3 * 5
+J3_diskNearFullExit			= MEM_OVERLAY + 3 * 6
+J3_showTooManyPages			= MEM_OVERLAY + 3 * 7
+J3_showCantAddPages			= MEM_OVERLAY + 3 * 8
