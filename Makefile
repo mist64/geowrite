@@ -3,8 +3,6 @@ ASFLAGS = -g
 
 LOCALE ?= en
 
-OUTPUT ?= bin
-
 ifeq ($(LOCALE),en)
 ASFLAGS+=-D LOCALE=0 -I en
 else ifeq ($(LOCALE),de)
