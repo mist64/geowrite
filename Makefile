@@ -3,6 +3,8 @@ ASFLAGS = -g
 
 LOCALE ?= en
 
+OUTPUT ?= bin
+
 ifeq ($(LOCALE),en)
 ASFLAGS+=-D LOCALE=0 -I en
 else ifeq ($(LOCALE),de)
@@ -46,6 +48,13 @@ all: $(PREFIXED_OBJS) $(BUILD_DIR)/protection.o
 
 	./encrypt.py
 
+	rm -f build/current
+
+cvt: cvt.s geoWrite-cvt.cfg $(PREFIXED_OBJS) $(BUILD_DIR)/protection.o
+	rm -f build/current
+	ln -s $(LOCALE) build/current
+	$(AS) $(ASFLAGS) cvt.s -o $(BUILD_DIR)/cvt.o
+	ld65 -C geoWrite-cvt.cfg $(BUILD_DIR)/cvt.o -o $(BUILD_DIR)/geoWrite.cvt -Ln $(BUILD_DIR)/cvtsymbols.lbl
 	rm -f build/current
 
 clean:
