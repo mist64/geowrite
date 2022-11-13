@@ -69,7 +69,11 @@ The resulting files are the individual VLIR records, the file header, and the co
     geoWrite-fhdr.bin
     protection.bin
 
-The build process does not currently re-create a flat "CVT" VLIR file.
+The build process can re-create a flat "CVT" VLIR file with metadata (track & sector data, time stamp) fixed to values from `geoWrite_en_2.1_1988-07-06.cvt` file.
+
+To prepare cvt file enter
+
+    make && make cvt
 
 ## Binary Collection
 
